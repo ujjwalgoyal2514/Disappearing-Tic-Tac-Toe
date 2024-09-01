@@ -1,0 +1,73 @@
+h1 {
+    color: purple;
+    font-family: "helvetica neue", helvetica, "lucinda sans unicode", "sans serif";
+}
+body {
+    text-align: center;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.navbar button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.navbar button:hover {
+    background-color: #45a049;
+}
+#form-container {
+    text-align: center;
+    margin-top: 50px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-control {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#player-form button[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#player-form button[type="submit"]:hover {
+    background-color: #45a049;
+    cursor: pointer;
+}
+/* Custom styles for canvas */
+canvas {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+/* Fade-out transition */
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
